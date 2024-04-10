@@ -1,4 +1,4 @@
-package com.example.mobileapp
+package com.example.mobileapp.onboarding
 
 import android.content.Context
 import android.content.Intent
@@ -7,6 +7,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.viewpager2.widget.ViewPager2
+import com.example.mobileapp.LanguageSelect.LanguageSelectActivity
+import com.example.mobileapp.R
 import com.example.mobileapp.databinding.ActivityOnboardingBinding
 
 class OnboardingActivity : AppCompatActivity() {
@@ -77,19 +79,37 @@ class OnboardingActivity : AppCompatActivity() {
         onboardingBinding.btnOnboardingNext.text = btnText
         when (id) {
             0 -> {
-                onboardingBinding.ivCircle1.setBackgroundColor(ContextCompat.getColor(this, R.color.circle_active))
-                onboardingBinding.ivCircle2.setBackgroundColor(ContextCompat.getColor(this, R.color.circle_inactive))
-                onboardingBinding.ivCircle3.setBackgroundColor(ContextCompat.getColor(this, R.color.circle_inactive))
+                onboardingBinding.ivCircle1.setBackgroundColor(ContextCompat.getColor(this,
+                    R.color.circle_active
+                ))
+                onboardingBinding.ivCircle2.setBackgroundColor(ContextCompat.getColor(this,
+                    R.color.circle_inactive
+                ))
+                onboardingBinding.ivCircle3.setBackgroundColor(ContextCompat.getColor(this,
+                    R.color.circle_inactive
+                ))
             }
             1 -> {
-                onboardingBinding.ivCircle1.setBackgroundColor(ContextCompat.getColor(this, R.color.circle_inactive))
-                onboardingBinding.ivCircle2.setBackgroundColor(ContextCompat.getColor(this, R.color.circle_active))
-                onboardingBinding.ivCircle3.setBackgroundColor(ContextCompat.getColor(this, R.color.circle_inactive))
+                onboardingBinding.ivCircle1.setBackgroundColor(ContextCompat.getColor(this,
+                    R.color.circle_inactive
+                ))
+                onboardingBinding.ivCircle2.setBackgroundColor(ContextCompat.getColor(this,
+                    R.color.circle_active
+                ))
+                onboardingBinding.ivCircle3.setBackgroundColor(ContextCompat.getColor(this,
+                    R.color.circle_inactive
+                ))
             }
             2 -> {
-                onboardingBinding.ivCircle1.setBackgroundColor(ContextCompat.getColor(this, R.color.circle_inactive))
-                onboardingBinding.ivCircle2.setBackgroundColor(ContextCompat.getColor(this, R.color.circle_inactive))
-                onboardingBinding.ivCircle3.setBackgroundColor(ContextCompat.getColor(this, R.color.circle_active))
+                onboardingBinding.ivCircle1.setBackgroundColor(ContextCompat.getColor(this,
+                    R.color.circle_inactive
+                ))
+                onboardingBinding.ivCircle2.setBackgroundColor(ContextCompat.getColor(this,
+                    R.color.circle_inactive
+                ))
+                onboardingBinding.ivCircle3.setBackgroundColor(ContextCompat.getColor(this,
+                    R.color.circle_active
+                ))
             }
         }
     }

@@ -1,9 +1,10 @@
+package com.example.mobileapp.LanguageSelect
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mobileapp.LanguageItem
 import com.example.mobileapp.R
 
 class RvAdapter(private val itemList: List<LanguageItem>, private val itemClickListener: (Int) -> Unit) : RecyclerView.Adapter<RvAdapter.ViewHolder>() {

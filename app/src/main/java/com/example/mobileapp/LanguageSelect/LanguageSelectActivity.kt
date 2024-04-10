@@ -1,11 +1,11 @@
-package com.example.mobileapp
+package com.example.mobileapp.LanguageSelect
 
-import RvAdapter
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mobileapp.databinding.ActivityLanguageSelectBinding
+import com.example.mobileapp.setLocale
 
 class LanguageSelectActivity : AppCompatActivity() {
 
