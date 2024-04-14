@@ -10,6 +10,7 @@
         android:id="@+id/buttonGuess"
         android:layout_width="329dp"
         android:layout_height="49dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/button_rounded_blue"
         android:fontFamily="@font/fredoka_condensed_bold"
         android:text="Check"
@@ -20,8 +21,9 @@
 
     <EditText
         android:id="@+id/editTextGuess"
+        android:background="@drawable/rounded_rectangle_gray"
         android:layout_width="334dp"
-        android:layout_height="48dp"
+        android:layout_height="50dp"
         android:layout_marginTop="36dp"
         android:ems="10"
         android:inputType="text"
@@ -34,7 +36,7 @@
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="54dp"
         android:text="Write who is on image"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/editTextGuess"
@@ -60,7 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/fredoka_condensed_bold"
+            android:fontFamily="@font/fredoka_medium_regular"
             android:text="@string/guess_the_animal"
             android:textColor="@color/white"
             android:textSize="20sp" />

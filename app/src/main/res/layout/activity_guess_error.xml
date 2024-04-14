@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".GuessGame.GuessError">
 
+    <TextView
+        android:id="@+id/catIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/fredoka_regular"
+        android:text="😿"
+        android:textSize="150sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topAppBarLogin">
+    </TextView>
+
     <Button
         android:id="@+id/nextButton"
         android:layout_width="313dp"
@@ -36,31 +49,29 @@
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="208dp"
-        android:layout_height="30dp"
+        android:layout_width="177dp"
+        android:layout_height="27dp"
         android:layout_marginTop="36dp"
         android:fontFamily="@font/fredoka_condensed_bold"
         android:text="Eh? Wrong answer :("
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.576"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+        app:layout_constraintTop_toBottomOf="@+id/catIcon">
 
     </TextView>
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="208dp"
-        android:layout_height="30dp"
+        android:layout_width="127dp"
+        android:layout_height="38dp"
         android:layout_marginTop="64dp"
         android:fontFamily="@font/fredoka_condensed_bold"
         android:text="That is: Racoon"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.679"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+        app:layout_constraintTop_toBottomOf="@+id/catIcon">
 
     </TextView>
 
@@ -101,16 +112,6 @@
             app:layout_constraintVertical_bias="0.013" />
     </com.google.android.material.appbar.MaterialToolbar>
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="200dp"
-        android:layout_height="203dp"
-        android:layout_marginTop="116dp"
-        android:background="@drawable/error_pic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/topAppBarLogin"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
