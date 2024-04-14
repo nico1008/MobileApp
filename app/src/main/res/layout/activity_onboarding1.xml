@@ -32,6 +32,7 @@
         app:layout_constraintVertical_bias="0.85" />
 
     <TextView
+        style="@style/bodyMedium"
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -65,7 +66,7 @@
         android:layout_height="wrap_content"
         android:text="With conversation-based learning,\n you'll be talking from lesson one"
         android:fontFamily="@font/fredoka_regular"
-        android:layout_marginTop="505dp"
+        android:layout_marginTop="510dp"
         android:textAlignment="center"
         android:letterSpacing="0.01"
         app:layout_constraintEnd_toEndOf="parent"

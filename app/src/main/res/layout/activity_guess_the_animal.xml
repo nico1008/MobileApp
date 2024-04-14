@@ -7,12 +7,13 @@
     tools:context=".GuessGame.GuessTheAnimal">
 
     <Button
+        style="@style/h6Medium"
         android:id="@+id/buttonGuess"
         android:layout_width="329dp"
         android:layout_height="49dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/button_rounded_blue"
-        android:fontFamily="@font/fredoka_condensed_bold"
+        android:fontFamily="@font/fredoka_semibold"
         android:text="Check"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,15 +34,16 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <TextView
+        style="@style/bodyMedium"
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="54dp"
+        android:layout_marginBottom="57dp"
         android:text="Write who is on image"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/editTextGuess"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.appbar.MaterialToolbar
@@ -87,9 +89,9 @@
         android:id="@+id/imageView3"
         android:layout_width="335dp"
         android:layout_height="364dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:background="@drawable/racoon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></ImageView>
+        app:layout_constraintTop_toTopOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,12 +7,12 @@
     tools:context=".GuessGame.GuessSuccess">
 
     <Button
+        style="@style/h6Medium"
         android:id="@+id/nextButton"
         android:layout_width="313dp"
         android:layout_height="0dp"
         android:layout_marginTop="28dp"
         android:background="@drawable/button_rounded_blue"
-        android:fontFamily="@font/fredoka_condensed_bold"
         android:text="@string/next"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,19 +64,20 @@
         android:fontFamily="@font/fredoka_regular"
         android:text="🎉"
         android:textSize="160sp"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/topAppBarLogin">
-    </TextView>
+        app:layout_constraintTop_toBottomOf="@+id/topAppBarLogin"  />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:fontFamily="@font/fredoka_condensed_bold"
+        android:fontFamily="@font/fredoka_semibold"
         android:text="Holy Molly! That is Right!"
-        android:textSize="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

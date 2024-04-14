@@ -4,6 +4,7 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="colorPrimary">#5B7BFE</item>
+        <item name="colorSecondary">@color/opacity_dark_text</item>
     </style>
 
     <style name="Theme.Language_app" parent="Base.Theme.Language_app" />
