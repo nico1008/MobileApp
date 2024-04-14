@@ -1,30 +1,28 @@
 <resources>
-    <string name="app_name" translatable="false">Language App</string>
-    <string name="sad_connection_smile" translatable="false">😞</string>
-    <string name="no_connection">No internet connection</string>
-    <string name="check_connection">Check again</string>
-    <string name="onboarding1_title">Confidence in your words</string>
-    <string name="onboarding1_paragraph">"With conversation-based learning, you'll be talking from lesson one"</string>
-    <string name="onboarding2_title">Take your time to learn</string>
-    <string name="onboarding2_paragraph">Develop a habit of learning and make it a part of your daily routine</string>
-    <string name="onboarding3_title">The lessons you need to learn</string>
-    <string name="onboarding3_paragraph">Using a variety of learning styles to learn and retain</string>
-    <string name="onboarding_skip">Skip onboarding</string>
-    <string name="onboarding_button_2">More</string>
-    <string name="onboarding_button_3">Choose a language</string>
-    <string name="language_select_title">Language select</string>
-    <string name="language_select_question">What is your Mother language?</string>
-    <string name="language_select_button">Choose</string>
-    <string name="onboarding_button_1">Next</string>
-    <string name="login_header">Login</string>
-    <string name="login_welcome">For free, join now and start learning</string>
-    <string name="login_email_title">Email Address</string>
-    <string name="login_email_hint" translatable="false">Email</string>
-    <string name="login_password_title">Password</string>
-    <string name="login_password_hint" translatable="false">●●●●●●●</string>
-    <string name="login_registration_before_span">Not you member?</string>
-    <string name="login_registration_span">Signup</string>
-    <string name="login_google_before_span">You can use</string>
-    <string name="login_google_span">Google for</string>
-    <string name="login_google_after_span">sign in</string>
+    <string name="app_name">Language_app</string>
+    <string name="onboarding_1_next_button">Next</string>
+    <string name="onboarding_2_more_button">More</string>
+    <string name="onboarding_3_choose_lang_button">Choose a language</string>
+    <string name="skip_onboarding">Skip onboarding</string>
+    <string name="choose_lang_title">Language select</string>
+    <string name="whats_your_language">What is your Mother language?</string>
+    <string name="russian">Russian</string>
+    <string name="english">English</string>
+    <string name="chinese">Chinese</string>
+    <string name="belarus">Belarus</string>
+    <string name="kazakh">Kazakh</string>
+    <string name="choose">Choose</string>
+    <string name="login">Login</string>
+    <string name="loginTextView1">For free, join now and start learning</string>
+    <string name="loginEmail">Email Address</string>
+    <string name="loginPass">Password</string>
+    <string name="confirmPass">Confirm Password</string>
+    <string name="signup">Signup</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="Continue">Continue</string>
+    <string name="guess_the_animal">Guess the animal</string>
+    <string name="next">Next</string>
+    <string name="try_again">Try again</string>
+    <string name="word_practice">Word practice</string>
 </resources>
