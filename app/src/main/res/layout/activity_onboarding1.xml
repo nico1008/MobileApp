@@ -4,32 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/onboarding_1"
     tools:context=".Onboarding.Onboarding1">
+
+    <ImageView
+        android:id="@+id/ivOnboardingIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/im_onboarding_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="141dp"
+        style="@style/selectBlueButton"
+        android:layout_width="340dp"
         android:layout_height="46dp"
-        android:background="#5B7BFE"
-        android:fontFamily="@font/fredoka_condensed_bold"
+        android:fontFamily="@font/fredoka_semibold"
         android:text="@string/onboarding_1_next_button"
+        android:letterSpacing="0.01"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.835" />
+        app:layout_constraintVertical_bias="0.85" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/fredoka_condensed_bold"
+        android:fontFamily="@font/fredoka_semibold"
         android:text="@string/skip_onboarding"
+        android:textColor="@color/black"
+        android:letterSpacing="0.01"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_semibold"
+        android:text="Confidence in your words"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:letterSpacing="0.01"
+        android:layout_marginTop="480dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="With conversation-based learning,\n you'll be talking from lesson one"
+        android:fontFamily="@font/fredoka_regular"
+        android:layout_marginTop="505dp"
+        android:textAlignment="center"
+        android:letterSpacing="0.01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
