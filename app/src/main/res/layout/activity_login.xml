@@ -75,7 +75,8 @@
         android:layout_height="50dp"
         android:layout_marginBottom="445dp"
         android:ems="10"
-        android:hint="   Email"
+        android:paddingStart="15dp"
+        android:hint="Email"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -110,7 +111,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        style="@style/h5MediumLanguageButton"
+        style="@style/h5Medium"
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -147,10 +148,8 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        style="@style/h6Medium"
+        style="@style/selectBlueButton"
         android:id="@+id/choose_button"
-        android:layout_width="313dp"
-        android:layout_height="0dp"
         android:layout_marginBottom="172dp"
         android:background="@drawable/button_rounded_blue"
         android:fontFamily="@font/fredoka_regular"

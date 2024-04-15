@@ -137,15 +137,12 @@
         app:layout_constraintTop_toBottomOf="@+id/belarus_button" />
 
     <Button
-        style="@style/h6Medium"
+        style="@style/selectBlueButton"
         android:id="@+id/choose_button"
-        android:layout_width="313dp"
-        android:layout_height="0dp"
         android:layout_marginBottom="33dp"
         android:background="@drawable/button_rounded_blue"
         android:fontFamily="@font/fredoka_semibold"
         android:text="@string/choose"
-        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
 

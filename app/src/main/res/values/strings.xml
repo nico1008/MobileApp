@@ -13,6 +13,7 @@
     <string name="kazakh">Kazakh</string>
     <string name="choose">Choose</string>
     <string name="login">Login</string>
+    <string name="logout">Logout</string>
     <string name="loginTextView1">For free, join now and\nstart learning</string>
     <string name="loginEmail">Email Address</string>
     <string name="loginPass">Password</string>
@@ -25,4 +26,5 @@
     <string name="next">Next</string>
     <string name="try_again">Try again</string>
     <string name="word_practice">Word practice</string>
+    <string name="listening">Listening</string>
 </resources>

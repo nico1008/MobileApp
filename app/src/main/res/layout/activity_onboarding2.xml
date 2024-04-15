@@ -20,12 +20,8 @@
     <Button
         android:id="@+id/button"
         style="@style/selectBlueButton"
-        android:layout_width="340dp"
-        android:layout_height="46dp"
         android:fontFamily="@font/fredoka_semibold"
         android:text="@string/onboarding_1_next_button"
-        android:letterSpacing="0.01"
-        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,6 +38,7 @@
         android:letterSpacing="0.01"
         app:layout_constraintEnd_toEndOf="parent"
         android:textAlignment="center"
+        app:flow_horizontalAlign="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -55,6 +52,7 @@
         android:textColor="@color/black"
         android:letterSpacing="0.01"
         android:layout_marginTop="480dp"
+        app:flow_horizontalAlign="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/fredoka_condensed_bold"
+            android:fontFamily="@font/fredoka_medium_regular"
             android:text="@string/signup"
             android:textColor="@color/white"
             android:textSize="20sp" />
@@ -34,6 +34,7 @@
     </com.google.android.material.appbar.MaterialToolbar>
 
     <TextView
+        style="@style/bodyMedium"
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,6 +48,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
+        style="@style/bodyMedium"
         android:id="@+id/textViewLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -60,33 +62,37 @@
         app:layout_constraintHorizontal_bias="0.014"
         app:layout_constraintStart_toEndOf="@+id/textView3" />
 
+
     <TextView
         android:id="@+id/textView8"
+        style="@style/bodyMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="60dp"
         android:text="@string/loginPass"
         app:layout_constraintBottom_toBottomOf="@+id/textInputLayout4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintHorizontal_bias="0.091"
         app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout4"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_width="334dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_rectangle_gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-
         app:layout_constraintTop_toBottomOf="@+id/signup_1_text_1"
-        app:layout_constraintVertical_bias="0.168"
+        app:layout_constraintVertical_bias="0.141"
         app:passwordToggleEnabled="true">
 
         <EditText
             android:id="@+id/editTextPass"
-            android:layout_width="333dp"
-            android:layout_height="43dp"
+            android:layout_width="304dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
             android:layout_marginBottom="340dp"
             android:ems="10"
             android:inputType="textPassword"
@@ -97,32 +103,36 @@
 
     <TextView
         android:id="@+id/textView9"
+        style="@style/bodyMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="56dp"
         android:text="@string/confirmPass"
         app:layout_constraintBottom_toBottomOf="@+id/textInputLayout5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent" />
 
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout5"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_width="334dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_rectangle_gray"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
 
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signup_1_text_1"
-        app:layout_constraintVertical_bias="0.319"
+        app:layout_constraintVertical_bias="0.334"
         app:passwordToggleEnabled="true">
 
         <EditText
             android:id="@+id/editTextPass2"
-            android:layout_width="333dp"
-            android:layout_height="43dp"
+            android:layout_width="304dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+
             android:layout_marginBottom="340dp"
             android:ems="10"
             android:inputType="textPassword"
@@ -145,6 +155,7 @@
         app:layout_constraintVertical_bias="0.013" />
 
     <TextView
+        style="@style/h5Medium"
         android:id="@+id/signup_1_text_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -161,14 +172,10 @@
 
 
     <Button
+        style="@style/selectBlueButton"
         android:id="@+id/choose_button"
-        android:layout_width="313dp"
-        android:layout_height="0dp"
         android:layout_marginBottom="172dp"
-        android:background="@drawable/button_rounded_blue"
-        android:fontFamily="@font/fredoka_condensed_bold"
-        android:text="@string/Continue"
-        android:textColor="@color/white"
+        android:text="Signup"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
