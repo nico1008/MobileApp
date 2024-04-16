@@ -34,4 +34,8 @@ public class GuessError extends AppCompatActivity {
             }
         });
     }
+
+    public void onBackButtonClicked(View view) {
+        onBackPressed();
+    }
 }

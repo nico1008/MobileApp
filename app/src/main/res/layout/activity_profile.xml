@@ -12,7 +12,7 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/button_rounded_blue"
         android:fontFamily="@font/fredoka_condensed_bold"
-        android:text="Change mother language"
+        android:text="@string/change_mother_language"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/choose_button3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,7 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/button_rounded_blue"
         android:fontFamily="@font/fredoka_condensed_bold"
-        android:text="Change your image"
+        android:text="@string/change_your_image"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/choose_button5"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
         style="@style/selectBlueButton"
         android:id="@+id/choose_button4"
         android:layout_marginBottom="8dp"
-        android:text="Switch to dark"
+        android:text="@string/switch_to_dark"
         app:layout_constraintBottom_toTopOf="@+id/changeLangButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -76,7 +76,7 @@
 
         android:layout_marginTop="172dp"
         android:fontFamily="@font/fredoka_medium_regular"
-        android:text="Your profile, User"
+        android:text="@string/your_profile_user"
         android:textColor="@color/white"
 
         android:textSize="22dp"

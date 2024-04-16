@@ -13,11 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="124dp"
         android:fontFamily="@font/fredoka_condensed_bold"
-        android:text="Already you member? "
+        android:text="@string/already_you_member"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -32,7 +32,7 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintHorizontal_bias="0.015"
         app:layout_constraintStart_toEndOf="@+id/textView3" />
 
     <TextView
@@ -44,7 +44,7 @@
         android:text="@string/firstName"
         app:layout_constraintBottom_toBottomOf="@+id/editTextFirstName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -57,10 +57,10 @@
         android:ems="10"
 
         android:paddingStart="15dp"
-        android:hint="Your first name"
+        android:hint="@string/your_first_name"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signup_1_text_1" />
 
@@ -74,7 +74,7 @@
         android:text="@string/lastName"
         app:layout_constraintBottom_toBottomOf="@+id/editTextLastName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -87,10 +87,10 @@
         android:ems="10"
 
         android:paddingStart="15dp"
-        android:hint="Your last name"
+        android:hint="@string/your_last_name"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextFirstName" />
 
@@ -103,7 +103,7 @@
         android:text="@string/loginEmail"
         app:layout_constraintBottom_toBottomOf="@+id/editTextEmail"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -115,12 +115,13 @@
         android:background="@drawable/rounded_rectangle_gray"
         android:ems="10"
         android:paddingStart="15dp"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextLastName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextLastName"
+        tools:ignore="TextFields" />
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/topAppBarLogin"
@@ -156,7 +157,7 @@
         android:onClick="onBackButtonClicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.013" />
@@ -169,10 +170,10 @@
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/fredoka_condensed_bold"
-        android:text="Create an Account"
+        android:text="@string/create_an_account"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topAppBarLogin" />
 

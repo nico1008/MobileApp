@@ -29,4 +29,8 @@ public class GuessTheAnimal extends AppCompatActivity {
             }
         });
     }
+
+    public void onBackButtonClicked(View view) {
+        onBackPressed();
+    }
 }

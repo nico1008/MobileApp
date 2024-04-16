@@ -38,7 +38,7 @@
 
         android:layout_marginTop="80dp"
         android:fontFamily="@font/fredoka_condensed_bold"
-        android:text="Hello, User"
+        android:text="@string/hello_user"
         android:textColor="@color/white"
 
         android:textSize="20dp"
@@ -53,7 +53,7 @@
         android:layout_marginStart="24dp"
 
         android:fontFamily="@font/fredoka_condensed_bold"
-        android:text="Top users"
+        android:text="@string/top_users"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -70,7 +70,7 @@
         android:layout_marginTop="189dp"
 
         android:fontFamily="@font/fredoka_condensed_bold"
-        android:text="Available exercise"
+        android:text="@string/available_exercise"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -87,7 +87,7 @@
         android:layout_marginTop="36dp"
 
         android:fontFamily="@font/fredoka_condensed_bold"
-        android:text="Are you ready for learning today?"
+        android:text="@string/are_you_ready_for_learning_today"
         android:textColor="#B6B6B6"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
