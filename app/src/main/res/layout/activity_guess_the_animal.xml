@@ -19,17 +19,18 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextGuess" />
 
     <EditText
-        style="@style/grayButton"
         android:id="@+id/editTextGuess"
-        android:background="@drawable/rounded_rectangle_gray"
+        style="@style/grayButton"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginTop="36dp"
-        android:paddingStart="15dp"
+        android:background="@drawable/rounded_rectangle_gray"
         android:ems="10"
         android:inputType="text"
+        android:paddingStart="15dp"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 

@@ -57,7 +57,7 @@
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/topAppBarLogin"
-        android:layout_width="413dp"
+        android:layout_width="match_parent"
         android:layout_height="222dp"
         android:background="#410FA3"
         app:layout_constraintEnd_toEndOf="parent"
